@@ -526,10 +526,11 @@ body {
     gap:0px;
   }
   .white-cta {
-    min-height:300px;
+    min-height:375px;
     justify-content: center;
   }
   .shield-cta img {
+    content: url(/public/assets/shield.svg);
     width:100%;
   }
 
