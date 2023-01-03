@@ -97,6 +97,7 @@ html, body {
     cursor:pointer;
     font-family: "Aviano Sans";
     font-size:18px;
+    transition:background ease-in-out 0.2s;
   }
   
   .cta-buttons .btn-outline {
@@ -108,6 +109,17 @@ html, body {
     cursor:pointer;
     font-family: "Aviano Sans";
     font-size:18px;
+    transition:ease-in-out 0.2s;
+  }
+
+  .cta-buttons .btn-outline:hover {
+    background:#fff;
+    color:#081426;
+  }
+
+  .cta-buttons .btn-solid:hover {
+    background:#fff;
+    color:#081426;
   }
   
   .text-button {
