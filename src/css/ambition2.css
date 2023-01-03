@@ -3,6 +3,75 @@ html, body {
     padding: 0;
     font-family: 'Lato';
   }
+
+  /* Dark Callout */
+  .dark-callout {
+    background: #030F1D url(/public/assets/intro-smoke.png);
+    background-blend-mode:normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height:100vh;  
+    font-family: "Aviano Sans";
+  }
+
+  .dark-callout h2 {
+    font-size:3rem;
+    color:#fff;
+    font-weight:600;
+    text-transform:uppercase;
+  }
+
+  .dark-callout h3 {
+    font-size:3rem;
+    color:#7ED3F7;
+    font-weight:600;
+    text-transform:uppercase;
+  }
+
+.dark-callout section:nth-child(1) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.dark-callout section:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    align-items: center;
+    grid-auto-rows: 1fr;
+    gap:75px;
+    color:#fff;
+  }
+
+  .left-intro > .column {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    min-height:inherit;
+    align-items: center;
+    grid-auto-rows: 1fr;
+  }
+
+  .dark-callout .intro-content p {
+    font-family:"Lato";
+    font-size:1.2rem;
+    font-weight:300;
+  }
+
+  .dark-callout .intro-content .tagline {
+    color:#FEBE44;
+  }
+
+.dark-callout .intro p {
+    width:65%;
+    text-align:center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 10px 0;
+    color: #fff;
+    font-family: 'Lato';
+}
   .container {
     display: flex;
     flex-direction: column;
@@ -61,7 +130,7 @@ html, body {
     flex-direction: column;
     color:#fff;
     font-family: "Aviano Sans";
-    gap:25px;
+    gap:15px;
   }
   
   .hero-cta .cta-tagline {
@@ -70,6 +139,7 @@ html, body {
   .hero-cta h1 {
     font-size: 4em;
     font-weight:500;
+    line-height:1;
     margin:0;
   }
   .hero-cta p {
