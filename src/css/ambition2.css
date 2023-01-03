@@ -111,329 +111,426 @@ input[type="button"] {
   cursor: pointer;
 }
 
+strong {
+  font-weight: 600;
+}
 
 body {
-  background:#04111F;
+  background: #04111F;
 }
 
-  /* Dark Callout */
-  .dark-callout {
-    background: #04111F url(/public/assets/intro-smoke.png);
-    background-blend-mode:normal;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    font-family: "Aviano Sans";
-    padding-top:50px;
-    margin-top:50px;
-  }
-
-  .dark-callout h2 {
-    font-size:3rem;
-    color:#fff;
-    font-weight:600;
-    text-transform:uppercase;
-  }
-
-  .dark-callout h3 {
-    font-size:3rem;
-    color:#7ED3F7;
-    font-weight:600;
-    text-transform:uppercase;
-  }
-
-.dark-callout section:nth-child(1) {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+.white-cta {
+  background: #fff;
+  min-height: 200px;
 }
-.dark-callout section:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row nowrap;
-    align-items: center;
-    grid-auto-rows: 1fr;
-    gap:75px;
-    color:#fff;
-  }
-  .left-intro > .column {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column nowrap;
-    min-height:inherit;
-    align-items: center;
-    grid-auto-rows: 1fr;
-  }
 
-  .dark-callout .intro-content p {
-    font-family:"Lato";
-    font-size:1.2rem;
-    font-weight:300;
-  }
+/* Dark Callout */
+.dark-callout {
+  background: #04111F url(/public/assets/intro-smoke.png);
+  background-blend-mode: normal;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Aviano Sans";
+  padding: 100px 0;
+}
 
-  .dark-callout .intro-content .tagline {
-    color:#FEBE44;
-  }
+.dark-callout h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dark-callout h3 {
+  font-size: 3rem;
+  color: #7ED3F7;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dark-callout section {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  align-items: center;
+  grid-auto-rows: 1fr;
+  color: #fff;
+  gap: 75px;
+}
+
+.dark-callout .intro-content p {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.dark-callout .intro-content .tagline {
+  color: #FEBE44;
+}
+
+.dark-callout .left-intro>.column {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  min-height: inherit;
+  align-items: center;
+  grid-auto-rows: 1fr;
+}
+
+/* Dark Callout Alt */
+
+.dark-callout-alt {
+  font-family: "Aviano Sans";
+  padding: 100px 0;
+}
+
+.dark-callout-alt h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dark-callout-alt h3 {
+  font-size: 3rem;
+  color: #7ED3F7;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dark-callout-alt section {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  align-items: center;
+  grid-auto-rows: 1fr;
+  color: #fff;
+  gap: 75px;
+}
+
+.dark-callout-alt .intro-content p {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.dark-callout-alt .intro-content .tagline {
+  color: #FEBE44;
+}
+
+.dark-callout-alt .right-intro>.column {
+  display: flex;
+  flex-direction: row;
+  flex-flow: column nowrap;
+  min-height: inherit;
+  align-items: center;
+  grid-auto-rows: 1fr;
+}
+
+/* Dark Callout Intro */
+.dark-callout .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
 
 .dark-callout .intro p {
-    width:65%;
-    text-align:center;
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: 10px 0;
-    color: #fff;
-    font-family: 'Lato';
+  width: 65%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 10px 0;
+  color: #fff;
+  font-family: 'Lato';
 }
-  .container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    gap:150px;
-  }
 
-  #home-hero {
-    background: #081426 url(/public/assets/dark-bg.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .home-hero {
-    padding-bottom:75px;
-  }
+/*Global */
 
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 150px;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.cta-buttons .btn-solid {
+  background: radial-gradient(50% 50% at 50% 50%, #429dc4 0, #0073a4 100%);
+  border: 1px solid hsla(0, 0%, 100%, .15);
+  border-radius: 500px;
+  padding: 15px 50px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Aviano Sans";
+  font-size: 18px;
+  transition: ease-in-out 0.2s;
+}
+
+.cta-buttons .btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 500px;
+  padding: 15px 50px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Aviano Sans";
+  font-size: 18px;
+  transition: ease-in-out 0.2s;
+}
+
+.cta-buttons .btn-outline:hover {
+  background: #fff;
+  color: #081426;
+}
+
+.cta-buttons .btn-solid:hover {
+  background: #fff;
+  color: #081426;
+}
+
+.text-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Aviano Sans";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.text-button .square-plus {
+  width: 16px;
+}
+
+.text-button .square-plus svg {
+  color: #FEBE44;
+}
+
+.text-button:hover {
+  color: #FEBE44;
+}
+
+/* Home Hero */
+
+#home-hero {
+  background: #081426 url(/public/assets/dark-bg.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-hero {
+  padding-bottom: 75px;
+}
+
+.hero-cta {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Aviano Sans";
+  gap: 15px;
+}
+
+.hero-cta .cta-tagline {
+  color: #7ED3F7;
+}
+
+.hero-cta h1 {
+  font-size: 4em;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+}
+
+.hero-cta p {
+  font-family: "Lato";
+  font-size: 1.5em;
+  font-weight: 300;
+  max-width: 40vw;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  font-family: "Aviano Sans";
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #7ED3F7;
+  border-bottom: 5px solid #7ED3F7;
+  transition: ease-in-out 0.1s;
+}
+
+/* 3 Column Icon Box Section */
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-height: 350px;
+  grid-auto-rows: 1fr;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  background: rgba(5, 21, 41, 0.4);
+  background-blend-mode: multiply;
+  border-radius: 5px;
+  padding: 50px;
+  transition: ease-in-out 0.2s;
+  gap: 5px;
+
+}
+
+.icon-box:hover {
+  background-color: rgba(5, 21, 41, 0.8);
+  background-blend-mode: multiply;
+  box-shadow: rgba(4, 15, 43, 0.25) 0px 50px 100px -20px, rgba(4, 15, 43, 0.3) 0px 30px 60px -30px, rgba(4, 15, 43, 0.35) 0px -2px 6px 0px inset;
+  transform: translateY(-5px);
+}
+
+.icon-box>img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.icon-box h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+  font-family: 'Aviano Sans';
+}
+
+.icon-box h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+}
+
+.icon-box p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 10px 0;
+  color: #fff;
+  font-family: 'Lato';
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top:75px;
-  }
-  .logo {
-    font-size: 2em;
-    font-weight: bold;
-    color: white;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .nav-item {
-    font-family: "Aviano Sans";
-    font-size:20px;
-    margin-left: 15px;
-  }
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    padding-bottom:20px;
-  }
-  .nav-link:hover {
-    text-decoration: none;
-    color:#7ED3F7;
-    border-bottom: 5px solid #7ED3F7;
-    transition: ease-in-out 0.1s;
-  }
-  .hero-cta {
-    margin:0;
-    padding:0;
-    flex: 1;
-    display: flex;
-    align-items: left;
-    justify-content: center;
     flex-direction: column;
-    color:#fff;
-    font-family: "Aviano Sans";
-    gap:15px;
   }
-  
-  .hero-cta .cta-tagline {
-    color: #7ED3F7;
+
+  .dark-callout .intro {
+    text-align: center;
   }
+
+  .dark-callout .intro p {
+    width: 100%;
+  }
+
+  .dark-callout section {
+    flex-direction: column;
+  }
+
+  .dark-callout-alt section {
+    flex-direction: column-reverse;
+  }
+
   .hero-cta h1 {
-    font-size: 4em;
-    font-weight:500;
-    line-height:1;
-    margin:0;
-  }
-  .hero-cta p {
-    font-family:"Lato";
-    font-size: 1.5em;
-    font-weight:300;
-    max-width: 40vw;
-    line-height: 1.5;
-    margin:0;
-    padding:0;
-  }
-  
-  .cta-buttons {
-    display:flex;
-    flex-direction:row;
-    gap:15px;
-  }
-  
-  .cta-buttons .btn-solid {
-    background: radial-gradient(50% 50% at 50% 50%,#429dc4 0,#0073a4 100%);
-    border: 1px solid hsla(0,0%,100%,.15);
-    border-radius: 500px;
-    padding:15px 50px;
-    color:#fff;
-    cursor:pointer;
-    font-family: "Aviano Sans";
-    font-size:18px;
-    transition: ease-in-out 0.2s;
-  }
-  
-  .cta-buttons .btn-outline {
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 500px;
-    padding:15px 50px;
-    color:#fff;
-    cursor:pointer;
-    font-family: "Aviano Sans";
-    font-size:18px;
-    transition:ease-in-out 0.2s;
+    font-size: 3.4em;
   }
 
-  .cta-buttons .btn-outline:hover {
-    background:#fff;
-    color:#081426;
+  .hero-cta .cta-tagline {
+    font-size: 85%;
   }
 
-  .cta-buttons .btn-solid:hover {
-    background:#fff;
-    color:#081426;
-  }
-  
-  .text-button {
-    display:inline-flex;
-    align-items: center;
-    gap:10px;
-    background: transparent;
-    border:none;
-    text-align:left;
-    color:#fff;
-    cursor:pointer;
-    font-family: "Aviano Sans";
-    font-size:16px;
-    font-weight:600;
-    margin:0;
-    padding:0;
-  }
-  
-  .text-button .square-plus {
-    width:16px;
-  }
-  
-  .text-button .square-plus svg {
-    color:#FEBE44;
-  }
-  
-  .text-button:hover {
-    color:#FEBE44;
-  }
-  
-  /* 3 Column Icon Box Section */
-  
-  .section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 20px;
-  }
-  
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column nowrap;
-    align-items: center;
-    min-height: 350px;
-    grid-auto-rows: 1fr;
-  }
-  
   .icon-box {
+    padding: 25px;
+    gap: 15px;
+  }
+
+  .nav-item {
+    margin-top: 10px;
+  }
+
+  .hero-cta p {
+    max-width: 100vw;
+  }
+
+  .section {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
-    background: rgba(5, 21, 41, 0.4);
-    background-blend-mode: multiply;
-    border-radius: 5px;
-    padding: 50px;
-    transition: ease-in-out 0.2s;
-    gap:5px;
-    
   }
-  
-  .icon-box:hover {
-    background-color: rgba(5, 21, 41, 0.8);
-    background-blend-mode:multiply;
-    box-shadow: rgba(4, 15, 43, 0.25) 0px 50px 100px -20px, rgba(4, 15, 43, 0.3) 0px 30px 60px -30px, rgba(4, 15, 43, 0.35) 0px -2px 6px 0px inset;
-    transform: translateY(-5px);
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
   }
-  
-  .icon-box > img {
-    width: 75px;
-    height: 75px;
-    object-fit: contain;
-    margin-bottom: 20px;
-  }
-  
-  .icon-box h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin: 0;
-    color: #fff;
-    font-family:'Aviano Sans';
-  }
-  
-  .icon-box h3 {
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0;
-    color: #fff;
-  }
-  
-  .icon-box p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin: 10px 0;
-    color: #fff;
-    font-family: 'Lato';
-  }
-  
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-    }
-    .hero-cta h1 {
-      font-size: 3.4em;
-    }
-    .hero-cta .cta-tagline {
-     font-size:85%;
-    }
-    .icon-box {
-      padding:25px;
-      gap:15px;
-    }
-    .nav-item {
-      margin-top: 10px;
-    }
-    .hero-cta p {
-      max-width:100vw;
-    }
-    .section {
-      display: flex;
-      flex-direction: column;
-    }
-    .cta-buttons {
-      display:flex;
-      flex-direction:column;
-    }
-  }
-  
+}
