@@ -118,6 +118,11 @@ body {
 
   /* Dark Callout */
   .dark-callout {
+    background: #04111F url(/public/assets/intro-smoke.png);
+    background-blend-mode:normal;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     font-family: "Aviano Sans";
     padding-top:50px;
     margin-top:50px;
@@ -195,7 +200,7 @@ body {
   }
   
   .home-hero {
-    padding-bottom:150px;
+    padding-bottom:75px;
   }
 
   .header {
