@@ -56,8 +56,14 @@ function Home() {
             <img src="./assets/shield-logo.svg" alt="Shield"></img>
           </div>
           <div className="cta-phone">
-            <h1>1-800-AMB-FIRE</h1>
-            <h5>OR SCHEDULE AN APPOINTMENT ONLINE TODAY</h5>
+            <h1>
+              <a href="tel:+1800AMBFIRE">1-800-AMB-FIRE</a>
+            </h1>
+            <h5>
+              <a href="#" className="text-yellow">
+                OR SCHEDULE AN APPOINTMENT ONLINE TODAY
+              </a>
+            </h5>
           </div>
         </div>
       </div>

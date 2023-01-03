@@ -146,6 +146,25 @@ body {
   color:#E5A220;
 }
 
+.cta-phone a {
+  color:#081426;
+  text-decoration: none;
+}
+
+.cta-phone a:hover {
+  color:#234578;
+  transition: ease-in-out 0.1s;
+}
+
+.cta-phone .text-yellow {
+  color:#E5A220;
+}
+
+.cta-phone .text-yellow:hover {
+  color:#FEBE44;
+  transition: ease-in-out 0.1s;
+}
+
 .shield-cta img {
   scale:100%;
 }
