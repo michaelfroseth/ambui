@@ -326,7 +326,7 @@ body {
   cursor: pointer;
   font-family: "Aviano Sans";
   font-size: 18px;
-  transition: ease-in-out 0.2s;
+  transition: background ease-in-out 0.3s;
 }
 
 .cta-buttons .btn-outline {
@@ -338,7 +338,7 @@ body {
   cursor: pointer;
   font-family: "Aviano Sans";
   font-size: 18px;
-  transition: ease-in-out 0.2s;
+  transition: background ease-in-out 0.3s;
 }
 
 .cta-buttons .btn-outline:hover {
@@ -447,12 +447,13 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  gap:35px;
+  padding-bottom:25px;
 }
 
 .nav-item {
   font-family: "Aviano Sans";
   font-size: 20px;
-  margin-left: 15px;
 }
 
 .nav-link {
@@ -462,11 +463,13 @@ body {
   border-bottom:0;
   transition: border-bottom 0.1s;
   transition-timing-function: ease-in-out;
+  color:#E4E4E4;
 }
 
 .nav-link:hover {
-  color: #7ED3F7;
-  border-bottom: 3px solid #7ED3F7;
+  color: #fff;
+  font-weight:500;
+  border-bottom: 5px solid #7ED3F7;
 }
 
 /* 3 Column Icon Box Section */
