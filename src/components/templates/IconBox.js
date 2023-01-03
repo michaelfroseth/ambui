@@ -1,54 +1,69 @@
 import React from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
 
 const IconBox = () => {
   return (
-    <Container>
-      <Row className="align-items-left my-5">
-        <Col xs={12} md={4} className="text-left amb-iconbox" col="12 4">
-          <Image src="./assets/icon-1.svg" className="mb-3" />
-          <h5>
-            SUPERIOR <br />
+    <section className="section">
+      <div className="column">
+        <div className="icon-box">
+          <img src="assets/icon-1.svg" alt="Icon 1" />
+          <h2>
+            SUPERIOR
+            <br />
             PROTECTION
-          </h5>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             scelerisque lacinia diam eu eleifend. Phasellus nisi tortor, aliquam
             nec fringilla a, mattis et lorem. Etiam id mattis sem, vel convallis
             mauris.
           </p>
-          <Button variant="primary">Learn More</Button>
-        </Col>
-        <Col xs={12} md={4} className="text-left amb-iconbox" col="12 4">
-          <Image src="./assets/icon-2.svg" className="mb-3" />
-          <h5>
-            Dependable <br />
+          <button className="text-button">
+            <img src="assets/square-plus.svg" className="square-plus" /> Get
+            Started Today
+          </button>
+        </div>
+      </div>
+      <div className="column">
+        <div className="icon-box">
+          <img src="assets/icon-2.svg" alt="Icon 2" />
+          <h2>
+            Dependable
+            <br />
             Repair services
-          </h5>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             scelerisque lacinia diam eu eleifend. Phasellus nisi tortor, aliquam
             nec fringilla a, mattis et lorem. Etiam id mattis sem, vel convallis
             mauris.
           </p>
-          <Button variant="primary">Learn More</Button>
-        </Col>
-        <Col xs={12} md={4} className="text-left amb-iconbox" col="12 4">
-          <Image src="./assets/icon-3.svg" className="mb-3" />
-          <h5>
-            Life Safety <br />
+          <button className="text-button">
+            <img src="assets/square-plus.svg" className="square-plus" />
+            View Our Services
+          </button>
+        </div>
+      </div>
+      <div className="column">
+        <div className="icon-box">
+          <img src="assets/icon-3.svg" alt="Icon 3" />
+          <h2>
+            Life Safety
+            <br />
             Inspections
-          </h5>{" "}
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
             scelerisque lacinia diam eu eleifend. Phasellus nisi tortor, aliquam
             nec fringilla a, mattis et lorem. Etiam id mattis sem, vel convallis
             mauris.
           </p>
-          <Button variant="primary">Learn More</Button>
-        </Col>
-      </Row>
-    </Container>
+          <button className="text-button">
+            <img src="assets/square-plus.svg" className="square-plus" />
+            Schedule An Appointment
+          </button>
+        </div>
+      </div>
+    </section>
   );
 };
 
