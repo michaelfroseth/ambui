@@ -113,19 +113,13 @@ input[type="button"] {
 
 
 body {
-  background:#030F1D;
+  background:#04111F;
 }
 
   /* Dark Callout */
   .dark-callout {
-    background: #030F1D url(/public/assets/intro-smoke.png);
-    background-blend-mode:normal;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-height:100vh;  
     font-family: "Aviano Sans";
-    padding-top:150px;
+    padding-top:50px;
     margin-top:50px;
   }
 
@@ -191,10 +185,6 @@ body {
     margin: 0 auto;
     gap:150px;
   }
-  
-  .home-hero {
-    min-height:100vh;
-  }
 
   #home-hero {
     background: #081426 url(/public/assets/dark-bg.jpg);
@@ -204,11 +194,14 @@ body {
     background-size: cover;
   }
   
+  .home-hero {
+    padding-bottom:150px;
+  }
+
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px;
     padding-top:75px;
   }
   .logo {
