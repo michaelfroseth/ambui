@@ -50,7 +50,17 @@ function Home() {
           </section>
         </div>
       </div>
-      <div className="white-cta"></div>
+      <div className="white-cta">
+        <div className="cta-container">
+          <div className="shield-cta">
+            <img src="./assets/shield-logo.svg" alt="Shield"></img>
+          </div>
+          <div className="cta-phone">
+            <h1>1-800-AMB-FIRE</h1>
+            <h5>OR SCHEDULE AN APPOINTMENT ONLINE TODAY</h5>
+          </div>
+        </div>
+      </div>
       <div className="dark-callout-alt">
         <div className="container">
           <section className="right-intro">
