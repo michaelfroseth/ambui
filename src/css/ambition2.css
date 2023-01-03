@@ -97,7 +97,7 @@ html, body {
     cursor:pointer;
     font-family: "Aviano Sans";
     font-size:18px;
-    transition:background ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
   }
   
   .cta-buttons .btn-outline {
