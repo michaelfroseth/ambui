@@ -545,7 +545,7 @@ body {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .logo {
-    scale:90%;
+    scale:100%;
   }
   .nav {
     display: flex;
