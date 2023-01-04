@@ -120,6 +120,8 @@ body {
   background: #04111F;
 }
 
+
+
 .white-cta {
   background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E4 100%);
   box-shadow: inset 0px 0px 55px 22px rgba(5, 22, 43, 0.25);
@@ -544,6 +546,40 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  nav {
+    display:none;
+  }
+  .mobile-menu-bar {
+    display: flex;
+    width:100%;
+    align-items: center;
+    height: 150px;
+    background-color: #081426;
+    color: #fff;
+    position:fixed;
+    top:0;
+    transition:ease-in-out 0.5s;
+    z-index:100;
+  }
+
+  .mobile-menu-bar .logo {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .mobile-menu-bar .hamburger-icon {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    width:60px;
+  }
+
+  .mobile-menu-bar img {
+    height: 90px;
+    padding-left:15px;
+  }
+
   .logo {
     scale:100%;
   }
