@@ -177,7 +177,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   padding: 100px 0;
 }
 
@@ -403,7 +403,7 @@ body {
   justify-content: center;
   flex-direction: column;
   color: #fff;
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   gap: 15px;
 }
 
