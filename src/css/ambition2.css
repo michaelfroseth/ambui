@@ -639,7 +639,9 @@ body {
   .header {
     flex-direction: column;
   }
-
+.hero-cta {
+  text-align:center;
+}
   .dark-callout .intro {
     text-align: center;
   }
@@ -663,7 +665,6 @@ body {
     font-weight:800;
   }
 
-  
   .hero-cta .cta-tagline {
     font-size:1.2;
   }
