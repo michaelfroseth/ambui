@@ -36,7 +36,7 @@ const Header = () => {
               <a href="/">
                 <img
                   src="./assets/ambition-logo-white-alt.png"
-                  width="300px"
+                  width="275px"
                   alt="Ambition Fire Protection"
                 />
               </a>
@@ -46,7 +46,7 @@ const Header = () => {
                 <img
                   src="./assets/hamburger.svg"
                   alt="Hamburger icon"
-                  width="72px"
+                  width="64px"
                 />
               </a>
             </div>
