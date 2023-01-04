@@ -663,6 +663,7 @@ body {
 
   .hero-cta {
     text-align: center;
+    gap:25px;
   }
 
   .dark-callout .intro {
