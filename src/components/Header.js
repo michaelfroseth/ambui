@@ -31,7 +31,10 @@ const Header = () => {
           <div className="mobile-menu-bar">
             <div className="logo">
               <a href="/">
-                <img src="./assets/shield.svg" alt="Ambition Fire Protection" />
+                <img
+                  src="./assets/ambition-logo-white.svg"
+                  alt="Ambition Fire Protection"
+                />
               </a>
             </div>
             <div className="hamburger-icon">
