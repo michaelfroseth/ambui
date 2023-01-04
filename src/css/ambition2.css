@@ -603,12 +603,7 @@ body {
   }
 
   .mobile-menu-bar img {
-    height: 90px;
     padding-left:15px;
-  }
-
-  .logo {
-    scale:100%;
   }
   .nav {
     display: flex;
