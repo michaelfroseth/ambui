@@ -562,6 +562,10 @@ body {
     justify-content: center;
     text-align: center;
     gap:0px;
+    padding:25px;
+  }
+  .cta-phone h1 {
+    font-size:2.8rem;
   }
   .white-cta {
     min-height:375px;
