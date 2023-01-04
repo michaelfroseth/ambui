@@ -545,6 +545,11 @@ body {
 }
 
 /* Responsive Styles */
+@media only screen and (min-width: 769px) {
+  .mobile-menu-bar {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   nav {
     display:none;
