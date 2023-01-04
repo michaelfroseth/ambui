@@ -605,6 +605,7 @@ body {
 
   .header .logo img {
     content: url(/public/assets/logo-vert.svg);
+    width:325px;
   }
 
   .mobile-menu-bar .hamburger-icon {
