@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/tww0ayh.css");
 /* Reset default styles */
 html,
 body,
@@ -136,13 +137,13 @@ body {
 }
 
 .cta-phone h1 {
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   font-size:3.2rem;
   font-weight:900!important;
 }
 
 .cta-phone h5 {
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   color:#E5A220;
 }
 
@@ -226,7 +227,7 @@ body {
 /* Dark Callout Alt */
 
 .dark-callout-alt {
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   padding: 100px 0;
 }
 
@@ -324,7 +325,7 @@ body {
   padding: 15px 50px;
   color: #fff;
   cursor: pointer;
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   font-size: 18px;
   transition: background ease-in-out 0.3s;
 }
@@ -336,7 +337,7 @@ body {
   padding: 15px 50px;
   color: #fff;
   cursor: pointer;
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   font-size: 18px;
   transition: background ease-in-out 0.3s;
 }
@@ -360,7 +361,7 @@ body {
   text-align: left;
   color: #fff;
   cursor: pointer;
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin: 0;
@@ -452,7 +453,7 @@ body {
 }
 
 .nav-item {
-  font-family: "Aviano Sans";
+  font-family: aviano-sans, sans-serif;
   font-size: 20px;
 }
 
@@ -523,7 +524,7 @@ body {
   font-weight: 600;
   margin: 0;
   color: #fff;
-  font-family: 'Aviano Sans';
+  font-family: aviano-sans, sans-serif;
 }
 
 .icon-box h3 {
