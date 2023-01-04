@@ -59,7 +59,7 @@ const Header = () => {
                 <img
                   src="./assets/ambition-logo-white-alt.png"
                   alt="Ambition Fire Protection"
-                  width="375px"
+                  width="400px"
                 />
               </a>
             </div>
