@@ -6,14 +6,17 @@ import { Parallax } from "react-parallax";
 
 const Header = () => {
   const [showMenuBar, setShowMenuBar] = useState(false);
+  const [menuBarAnimationClass, setMenuBarAnimationClass] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
       // Check if user has scrolled past the point where you want to show the mobile menu bar
-      if (window.scrollY > 150) {
+      if (window.scrollY > 50) {
         setShowMenuBar(true);
+        setMenuBarAnimationClass("slide-in-top");
       } else {
         setShowMenuBar(false);
+        setMenuBarAnimationClass("");
       }
     };
 
@@ -28,7 +31,7 @@ const Header = () => {
     <Parallax bgImage="./assets/dark-bg.jpg" strength={400}>
       <div className="home-hero">
         {showMenuBar && (
-          <div className="mobile-menu-bar">
+          <div className={`mobile-menu-bar ${menuBarAnimationClass}`}>
             <div className="logo">
               <a href="/">
                 <img

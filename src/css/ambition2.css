@@ -544,6 +544,20 @@ body {
   font-family: 'Lato';
 }
 
+@keyframes slide-in-top {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-in-top {
+  animation: slide-in-top 0.2s ease-in-out;
+}
+
+
 /* Responsive Styles */
 @media only screen and (min-width: 769px) {
   .mobile-menu-bar {
@@ -554,6 +568,11 @@ body {
   nav {
     display:none;
   }
+  .main-heading {
+    display:flex;
+    flex-direction:column-reverse ;
+  }
+
   .mobile-menu-bar {
     display: flex;
     width:100%;
@@ -646,8 +665,9 @@ body {
     font-weight:800;
   }
 
+  
   .hero-cta .cta-tagline {
-    font-size: 85%;
+    font-size:1.2;
   }
 
   .icon-box {
