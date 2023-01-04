@@ -544,6 +544,9 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+  .logo {
+    scale:85%;
+  }
   .nav {
     display: flex;
     flex-direction: column;
@@ -594,7 +597,9 @@ body {
   .dark-callout-alt section {
     flex-direction: column-reverse;
   }
-
+  .dark-callout h3 {
+    font-size:1.8rem;
+  }
   .hero-cta h1 {
     font-size: 3.4em;
     font-weight:800;
