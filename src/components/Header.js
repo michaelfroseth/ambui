@@ -36,7 +36,7 @@ const Header = () => {
               <a href="/">
                 <img
                   src="./assets/ambition-logo-white-alt.png"
-                  width="275px"
+                  width="300px"
                   alt="Ambition Fire Protection"
                 />
               </a>
