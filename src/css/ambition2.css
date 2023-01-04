@@ -599,7 +599,7 @@ body {
   }
 
   .header .logo img {
-    content: url(/public/assets/logo-vert-white.png);
+    content: url(/public/assets/logo-vert.svg);
   }
 
   .mobile-menu-bar .hamburger-icon {
