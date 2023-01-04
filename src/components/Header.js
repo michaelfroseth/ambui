@@ -38,7 +38,9 @@ const Header = () => {
               </a>
             </div>
             <div className="hamburger-icon">
-              <img src="./assets/hamburger.svg" alt="Hamburger icon" />
+              <a href="#">
+                <img src="./assets/hamburger.svg" alt="Hamburger icon" />
+              </a>
             </div>
           </div>
         )}
